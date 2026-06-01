@@ -1,0 +1,66 @@
+Robust Regression Engine - Theory Answers
+
+1.  What is Regularization in Machine Learning? Why is it needed?
+
+Regularization is a technique used to reduce overfitting by adding a
+penalty term to the machine learning model’s loss function. The purpose
+of regularization is to prevent the model from becoming too complex and
+memorizing the training data.
+
+Why Regularization is needed: - Prevents overfitting - Improves model
+generalization - Reduces model complexity - Handles multicollinearity -
+Improves prediction on unseen data
+
+Types: L1 Regularization (Lasso): Adds absolute values of coefficients.
+
+L2 Regularization (Ridge): Adds squared values of coefficients.
+
+------------------------------------------------------------------------
+
+2.  Difference between Ridge Regression (L2) and Lasso Regression (L1)
+
+Ridge Regression: - Uses L2 regularization - Penalizes squared
+coefficients - Reduces coefficient magnitude - Keeps all features
+
+Lasso Regression: - Uses L1 regularization - Penalizes absolute
+coefficients - Can reduce some coefficients to zero - Performs feature
+selection
+
+------------------------------------------------------------------------
+
+3.  What is Cross Validation and why is it important?
+
+Cross Validation is a technique used to evaluate model performance by
+dividing data into multiple subsets and repeatedly training and testing.
+
+Importance: - Measures model stability - Reduces overfitting risk - Uses
+data efficiently - Gives reliable performance estimates
+
+------------------------------------------------------------------------
+
+4.  Explain Cross Validation Techniques
+
+K-Fold Cross Validation: Data is divided into K equal parts. One fold is
+used for testing while others are used for training.
+
+Stratified K-Fold: Maintains class distribution in each fold.
+
+Leave-One-Out Cross Validation: Uses one observation for testing and all
+others for training.
+
+Time Series Split: Maintains chronological order and is used for
+time-based data.
+
+------------------------------------------------------------------------
+
+5.  Why are tree-based models less sensitive to feature scaling?
+
+Tree-based algorithms such as Decision Trees and Random Forests split
+data using conditions and thresholds rather than distances.
+
+Reasons: - Uses rule-based splitting - Does not depend on Euclidean
+distance - Large and small feature values do not affect splitting
+decisions
+
+Therefore, scaling is generally not required for Decision Tree and
+Random Forest models.
