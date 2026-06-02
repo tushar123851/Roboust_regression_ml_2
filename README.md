@@ -40,7 +40,7 @@ The main objective is to compare multiple regression algorithms and select the m
 
 [![Watch Demo Veido](https://img.shields.io/badge/🎥%20Watch%20Project%20Demo-Click%20Here-red?style=for-the-badge)](https://drive.google.com/drive/folders/1VbHiUBmptPLns8Nc0NsEFouMxqECvlVh?usp=drive_link)
 
-[![View Projects](https://img.shields.io/badge/📂%20View%20More%20Projects-Click%20Here-blue?style=for-the-badge)](https://drive.google.com/drive/folders/1oohRw5hyg6MJjk4mAP2hxrosQDguOUIo?usp=drive_link)
+[![View Projects](https://img.shields.io/badge/📂%20View%20Projects-Click%20Here-blue?style=for-the-badge)](https://drive.google.com/drive/folders/1oohRw5hyg6MJjk4mAP2hxrosQDguOUIo?usp=drive_link)
 
 
 ---
